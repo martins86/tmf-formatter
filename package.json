@@ -1,0 +1,26 @@
+{
+  "name": "tmf-formatter",
+  "version": "1.0.0",
+  "description": "TMF Formatter Package.",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --declaration"
+  },
+  "keywords": [],
+  "author": "Thiago Martins de Freitas <martins86@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martins86/tmf-formatter"
+  },
+  "bugs": {
+    "url": "https://github.com/martins86/tmf-formatter/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
